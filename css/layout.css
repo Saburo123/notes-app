@@ -1,0 +1,10 @@
+.app {
+    height: 100vh; /* Viewport height: Using 100% of the browser window's height; makes .app as tall as the entire browser window */
+    display: flex; /*  Makes .app a flex container; .app becomes the parent flex container */
+    flex-direction: column; /* Stacks the children of .app vertically */
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}

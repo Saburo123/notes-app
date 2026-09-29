@@ -1,0 +1,7 @@
+.editor {
+    flex: 1; /* Uses up the remaining space left in the page */
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

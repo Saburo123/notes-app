@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/layout.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/sidebar.css" />
+        <link rel="stylesheet" href="css/editor.css" />
+        
         <title>My Notes</title>
     </head>
 
@@ -8,21 +14,21 @@
         <div class="app">
             <!-- Header -->
             <div class="header">
-                My notes
+                <h1>My notes</h1>
+                <button class="header-button">New note</button>
             </div>
-            <button class="header-button">
-                New note
-            </button>
 
             <!-- Main Body-->
-             <div class="sidebar">
+             <div class="main">
+                <div class="sidebar">
 
-             </div>
+                </div>
 
-             <div class="editor">
-                <input type="text" placeholder="Note title"/>
-                <p>Last edited just now</p>
-                <textarea placeholder="Start writing..."></textarea>
+                <div class="editor">
+                    <input type="text" placeholder="Note title"/>
+                    <p>Last edited just now</p>
+                    <textarea placeholder="Start writing..."></textarea>
+                </div>
              </div>
         </div>
     </body>
