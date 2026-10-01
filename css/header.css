@@ -5,3 +5,19 @@
     padding: 12px 20px; /* top/bottom left/right*/
     border-bottom: 1px solid #ddd; /*width style color*/
 }
+
+.header-button { 
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
